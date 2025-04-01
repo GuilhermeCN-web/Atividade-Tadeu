@@ -5,11 +5,8 @@ public class Ativ4 {
         Scanner in = new Scanner(System.in);
     double a, b, c;
 
-    System.out.println("Digite o 1°");
     a = in.nextDouble();
-    System.out.println("Digite o 2°");
     b = in.nextDouble();
-    System.out.println("Digite o 3°");
     c = in.nextDouble();
 
     a = a * 2;
