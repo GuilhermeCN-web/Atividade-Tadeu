@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class Ativ8 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int inicio = scanner.nextInt();
-        int fim = scanner.nextInt();
+        Scanner in = new Scanner(System.in);
+        int inicio = in.nextInt();
+        int fim = in.nextInt();
         boolean primeiro = true;
         for (int i = inicio; i <= fim; i++) {
             if (ehPrimo(i)) {
@@ -15,7 +15,6 @@ public class Ativ8 {
                 primeiro = false;
             }
         }
-        scanner.close();
     }
     public static boolean ehPrimo(int num) {
         if (num < 2) return false;

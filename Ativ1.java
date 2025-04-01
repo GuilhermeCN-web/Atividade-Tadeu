@@ -5,6 +5,6 @@ public class Ativ1 {
         System.out.println("Hello world!");
 
         Scanner in = new Scanner(System.in);
-        in.next();
+        //in.next();
     }
 }   
